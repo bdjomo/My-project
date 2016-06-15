@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RechnungErstellen</class>
+ <widget class="QDialog" name="RechnungErstellen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1167</width>
+    <height>849</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="widgetResizable">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1137</width>
+        <height>1158</height>
+       </rect>
+      </property>
+      <widget class="QGroupBox" name="groupBoxSpeAbrClose">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>760</y>
+         <width>861</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>Speicher Abbrechen und Close</string>
+       </property>
+       <widget class="QPushButton" name="btn_Speichern2">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>10</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Speichern</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnAbbrecher2">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>10</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Abbrechern</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnClose2">
+        <property name="geometry">
+         <rect>
+          <x>780</x>
+          <y>10</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Close</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBoxAdresse_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>280</y>
+         <width>861</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>Kopie</string>
+       </property>
+       <widget class="QRadioButton" name="radioButtonKopieLiederadresse_8">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>10</y>
+          <width>151</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Kopiere Lieferadresse</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButtonKopieRechAdresse_8">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>10</y>
+          <width>181</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Kopiere Rechnungsadresse</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBoxSpAbBClose_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>861</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>Apeicher Abbrechen Close</string>
+       </property>
+       <widget class="QPushButton" name="btn_Speichern_">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>10</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Speichern</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_Abbrecher">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>10</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Abbrechern</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_Close">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>10</y>
+          <width>81</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Close</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btn_DialogAdmin">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>10</y>
+          <width>111</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Adminidtration </string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBoxRechInfo_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>861</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>Kunden und Daten</string>
+       </property>
+       <widget class="QLabel" name="lbl_Titel">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>20</y>
+          <width>31</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Titel</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_RechDatum">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>50</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Kunde Name</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Organisation">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>100</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Strasse / Nr.</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_zustaendig">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>151</y>
+          <width>31</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>PLZ</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_MahnungDatum">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>181</y>
+          <width>21</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Ort</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_RechnungNr">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>20</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Rechnungsnr</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Faelig">
+        <property name="geometry">
+         <rect>
+          <x>550</x>
+          <y>80</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Fälligkeitsdatum</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Status">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>140</y>
+          <width>41</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Status</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Leistungszeitraum">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>110</y>
+          <width>121</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Zahlungsbedingsgungen</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Schlussrechnung">
+        <property name="geometry">
+         <rect>
+          <x>440</x>
+          <y>190</y>
+          <width>191</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Hinweis: Nachrichte an deinen Kunden</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Mahnhistorie">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>210</y>
+          <width>31</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Land</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_Titel">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>20</y>
+          <width>221</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_RechKunde_Name">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>50</y>
+          <width>221</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_RechLand">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>210</y>
+          <width>221</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_RechPLZ">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>151</y>
+          <width>221</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_RechOrt">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>181</y>
+          <width>221</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_Status">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>140</y>
+          <width>221</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_Schlussrechnung">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>170</y>
+          <width>221</width>
+          <height>61</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_RechFaellikeitsdatum">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>80</y>
+          <width>221</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_Leistungzeiraum">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>110</y>
+          <width>221</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_RechNr">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>20</y>
+          <width>221</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_RechStrasse_Nr">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>80</y>
+          <width>221</width>
+          <height>61</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_RechDatum">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>50</y>
+          <width>221</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_RechID">
+        <property name="geometry">
+         <rect>
+          <x>540</x>
+          <y>50</y>
+          <width>91</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Rechnungsdatum</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBoxKonditionen_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>320</y>
+         <width>861</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>Konditionen</string>
+       </property>
+       <widget class="QLineEdit" name="txt_Geschaefsbedingungen">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>10</y>
+          <width>691</width>
+          <height>51</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Geschaeftbedingung">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>20</y>
+          <width>111</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Geschäftsbedingungen</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBoxDetails_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>470</y>
+         <width>861</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>Rechnungszeilen</string>
+       </property>
+       <widget class="QLabel" name="lbl_MengeLager">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>10</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Einheit</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_MengeImLager">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>30</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_Rabatt">
+        <property name="geometry">
+         <rect>
+          <x>690</x>
+          <y>150</y>
+          <width>161</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Summenetto">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Preise(netto)</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Menge">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>10</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Menge</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_Menge">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>30</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_SummeNetto">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>30</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Summenetto_2">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>40</y>
+          <width>31</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Ust</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_Mwst">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>30</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_Preis">
+        <property name="geometry">
+         <rect>
+          <x>760</x>
+          <y>30</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Listenpreis_3">
+        <property name="geometry">
+         <rect>
+          <x>770</x>
+          <y>10</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Betrag(netto)</string>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBoxSumme_8">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>70</y>
+          <width>851</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Zwischensummen Ohne Mwst.</string>
+        </property>
+        <widget class="QLineEdit" name="txt_SummeBrutto">
+         <property name="geometry">
+          <rect>
+           <x>680</x>
+           <y>10</y>
+           <width>161</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="lbl_Summe">
+         <property name="geometry">
+          <rect>
+           <x>610</x>
+           <y>10</y>
+           <width>71</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Betrag (Netto)</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="llbl_Plus">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>10</y>
+          <width>21</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>(+)</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_Minus_15">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>150</y>
+          <width>16</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>(-)</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_Plus_22">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>180</y>
+          <width>21</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>(+)</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Rabat">
+        <property name="geometry">
+         <rect>
+          <x>650</x>
+          <y>150</y>
+          <width>41</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Rabatt</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Versandkosten">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>180</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Versandkosten</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_Plus_24">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>210</y>
+          <width>21</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>(+)</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_VersandkostenMwst">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>210</y>
+          <width>111</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Versandkosten Mwst.</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Anpassung">
+        <property name="geometry">
+         <rect>
+          <x>660</x>
+          <y>120</y>
+          <width>31</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Mwst.</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_Versandkosten">
+        <property name="geometry">
+         <rect>
+          <x>690</x>
+          <y>180</y>
+          <width>161</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_VersandkostenMwst">
+        <property name="geometry">
+         <rect>
+          <x>690</x>
+          <y>210</y>
+          <width>161</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_Anpassung">
+        <property name="geometry">
+         <rect>
+          <x>690</x>
+          <y>120</y>
+          <width>161</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Waehrung">
+        <property name="geometry">
+         <rect>
+          <x>620</x>
+          <y>10</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Währung</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBoxWaehrung_8">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>30</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="txt_ProdName">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>30</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_ProdName">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>10</y>
+          <width>81</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Produkt Name</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="llbl_Mwst">
+        <property name="geometry">
+         <rect>
+          <x>550</x>
+          <y>10</y>
+          <width>41</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Mwst.</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_Plus_23">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>120</y>
+          <width>21</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>(+)</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBoxZusatzinfo_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>390</y>
+         <width>861</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>Zusatzinformationen</string>
+       </property>
+       <widget class="QLineEdit" name="txt_Beschreibung1">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>10</y>
+          <width>691</width>
+          <height>51</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_Beschreibung">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>20</y>
+          <width>131</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Beschreibung des Produkt</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBoxSumme_9">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>720</y>
+         <width>861</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="title">
+        <string>Gesamt</string>
+       </property>
+       <widget class="QLineEdit" name="txt_SummeEnde">
+        <property name="geometry">
+         <rect>
+          <x>690</x>
+          <y>10</y>
+          <width>161</width>
+          <height>20</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbl_SummeEnde">
+        <property name="geometry">
+         <rect>
+          <x>650</x>
+          <y>10</y>
+          <width>41</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Gesamt</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
